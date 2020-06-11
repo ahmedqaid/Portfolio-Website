@@ -1,0 +1,144 @@
+html, body {
+  font-family: Arial Black;
+  background-color: #1d1e22;
+  color: #d4d4dc;
+   margin:0;
+   padding: 0;
+}
+
+header {
+  position: fixed;
+  background-color: #393f4d;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+
+#navbar {
+  margin-left: 70%;
+}
+
+#navlink {
+  text-decoration: none;
+  color: #feda6a;
+  font-size: 17px;
+  padding: 19px;
+}
+
+#navlink:hover {
+  background-color: #feda6a;
+  color: #393f4d;
+}
+
+a {
+  padding-right: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#comp {
+  font-style: italic;
+  margin-top: -30px;
+}
+
+#about {
+  padding: 200px;
+  background-color: #708090;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 15px;
+}
+
+#profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+}
+
+#project-title {
+  font-size: 40px;
+  max-width: 700px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid #d4d4dc;
+}
+
+#project-header {
+  padding-top: 60px;
+}
+
+.project-grid {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  justify-items: center;
+  text-align: center;
+  grid-gap: 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 30px;
+}
+
+.project-title {
+  background-color: #feda6a;
+  padding: 20px;
+  margin-top: -4px;
+  color: #1d1e22;
+}
+
+.project-title:hover{
+  background-color: #b1984a;
+  transition-duration: 100ms;
+}
+
+.project-image {
+  object-fit: cover;
+  width: 20rem;
+  height: 20rem;
+}
+
+#contact {
+  background-color: #393f4d;
+  padding: 20px;
+}
+
+.contacts {
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 25px;
+    text-shadow: 0 0 2px black, 0 0 7px black, 0 0 9px #feda6a;
+}
+
+#icon {
+  margin-right: 8px;
+}
+
+#conts {
+    color: #d4d4dc;
+    display: inline-block;
+}
+
+#conts:hover {
+  transform: translateY(8px);
+  transition-duration: 200ms;
+}
+
+footer {
+  background-color: #393f4d;
+  border-top: 5px solid black;
+  padding: 10px;
+  text-align: right;
+}
+
